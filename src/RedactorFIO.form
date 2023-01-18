@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="RedactorFIO">
+  <grid id="27dc6" binding="MainPanel" layout-manager="BorderLayout" hgap="10" vgap="5">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <preferredSize width="600" height="400"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="af3c6" binding="ButtonPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties>
+          <preferredSize width="200" height="40"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="8b728" class="javax.swing.JButton" binding="collapseButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <preferredSize width="200" height="30"/>
+              <text value="Соединить в строку"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="1279f" binding="TextPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="West"/>
+        <properties>
+          <preferredSize width="400" height="300"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="cf71" class="javax.swing.JTextField" binding="textSurname">
+            <constraints/>
+            <properties>
+              <preferredSize width="250" height="30"/>
+            </properties>
+          </component>
+          <component id="f5005" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <preferredSize width="60" height="30"/>
+              <requestFocusEnabled value="false"/>
+              <text value="Фамилия"/>
+            </properties>
+          </component>
+          <component id="7c219" class="javax.swing.JTextField" binding="textName">
+            <constraints/>
+            <properties>
+              <preferredSize width="250" height="30"/>
+            </properties>
+          </component>
+          <component id="a645d" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <preferredSize width="60" height="30"/>
+              <text value="Имя"/>
+            </properties>
+          </component>
+          <component id="4cf82" class="javax.swing.JTextField" binding="textPatronymic">
+            <constraints/>
+            <properties>
+              <preferredSize width="250" height="30"/>
+            </properties>
+          </component>
+          <component id="eb7e7" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <preferredSize width="60" height="30"/>
+              <text value="Отчество"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="d9355" binding="SplitPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties>
+          <preferredSize width="400" height="200"/>
+          <visible value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="e2e32" class="javax.swing.JTextField" binding="textFIO">
+            <constraints/>
+            <properties>
+              <preferredSize width="300" height="50"/>
+              <visible value="true"/>
+            </properties>
+          </component>
+          <component id="bd41d" class="javax.swing.JLabel" binding="Label">
+            <constraints/>
+            <properties>
+              <preferredSize width="60" height="30"/>
+              <text value="ФИО"/>
+              <visible value="true"/>
+            </properties>
+          </component>
+          <component id="a9fac" class="javax.swing.JButton" binding="splitButton">
+            <constraints/>
+            <properties>
+              <actionCommand value=""/>
+              <preferredSize width="200" height="40"/>
+              <text value="Разделить на Ф/И/О"/>
+              <visible value="true"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
